@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            const response = await fetch(`https://merchant-search-7q36.onrender.com/api/data?pastData=${zipCode}`);
+            const response = await fetch(`https://search-merchant.onrender.com/api/data?pastData=${zipCode}`);
             const data = await response.json();
 
             // Store fetched data in localStorage
